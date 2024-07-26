@@ -1,0 +1,24 @@
+body {
+  background: url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg');
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+button {
+  font-size: 50px;
+border: none;
+  border-radius: 12px;
+  background-color: rgba(21, 70, 21, 0.772);
+  color: whitesmoke;
+  transition-duration: 0.4s;
+  font-weight: 200px;
+}
+
+button:hover {
+  background-color: rgba(170, 116, 46, 0.876);
+  color: white;
+}
+button:active{
+  background-color: rgb(117, 86, 46);
+}
